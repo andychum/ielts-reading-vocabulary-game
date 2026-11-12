@@ -22,3 +22,12 @@ Download `index.html`, `app.js` and `data.js` into the same directory and open `
 Created by **Andy Chum** for independent IELTS Reading study and Zoom lessons. British English spelling is used where appropriate.
 
 Website: https://www.andychumenglishjapanese.com/
+
+
+---
+
+## IELTS Writing Quest — Separate Writing Game
+
+**[Play IELTS Writing Quest](https://andychum.github.io/ielts-reading-vocabulary-game/writing-quest/)** · [View Writing Quest documentation](writing-quest/README.md)
+
+A separate **100-question IELTS Academic Writing game** prepared by Andy Chum, covering grammar, sentence rewriting, Task 1 chart descriptions, Task 2 essay development and a mixed Band 7.5 revision challenge. This writing game can be opened independently of IELTS Vocabulary Lab.
