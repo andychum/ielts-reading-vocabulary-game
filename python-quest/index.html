@@ -232,7 +232,7 @@ if(m.kind==='init'){
 try{
 try{importScripts('https://cdn.jsdelivr.net/pyodide/v0.27.7/full/pyodide.js')}
 catch(first){importScripts('https://unpkg.com/pyodide@0.27.7/pyodide.js')}
-py=await loadPyodide({indexURL:'https://cdn.jsdelivr.net/pyodide/v0.27.7/full/'});
+try{py=await loadPyodide({indexURL:'https://cdn.jsdelivr.net/pyodide/v0.27.7/full/'})}catch(networkError){py=await loadPyodide({indexURL:'https://unpkg.com/pyodide@0.27.7/'})}
 self.postMessage({kind:'ready'});
 }catch(err){self.postMessage({kind:'error',error:String(err)})}
 }else if(m.kind==='run'){
